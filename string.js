@@ -4,18 +4,17 @@ console.log(len);
 console.log(name[5]);
 
 let obj = {
-    item: "pen",
-    price: 10,
+  item: "pen",
+  price: 10,
 };
 
 // Template literals // String interpolation
-let wow = `The cost of ${obj.item} is ${obj.price} ${1+2+5}.`
+let wow = `The cost of ${obj.item} is ${obj.price} ${1 + 2 + 5}.`;
 console.log(wow);
 console.log(typeof wow);
 
-
 // escape character
-let char = "Samyog \n  Koirala"
+let char = "Samyog \n  Koirala";
 let newchar = "KaiVex";
 console.log(char);
 console.log("Samyog \t   Koirala");
@@ -32,7 +31,7 @@ console.log(char.length);
 // str.charAt(idx)
 
 // String is immutable in JS
-let uppercase = char.toUpperCase(); 
+let uppercase = char.toUpperCase();
 console.log(uppercase);
 
 let lowercase = char.toLowerCase();
@@ -41,11 +40,11 @@ console.log(lowercase);
 let trimcase = char.trim();
 console.log(trimcase);
 
-let slicee = char.slice(1,3);
+let slicee = char.slice(1, 3);
 console.log(slicee);
 
-let concatt = char.concat(newchar); /// or use + 
-let concattt = char+newchar;
+let concatt = char.concat(newchar); /// or use +
+let concattt = char + newchar;
 console.log(concatt);
 console.log(concattt);
 
