@@ -54,12 +54,12 @@ console.log(veg.toString());
 
 //Concat()
 let animes = ["Aitama", "Goku", "Naruto", "Luffy", "Genos", "Eren"];
-// let anime = ["Johan","God","Friend","Ghost"];
-// let movies = ["Patrick","Cristian"];
-// let Sport = ["Ronaldo","Nymaar","Halland","metovic","mane"];
+let anime = ["Johan","God","Friend","Ghost"];
+let movies = ["Patrick","Cristian"];
+let Sport = ["Ronaldo","Nymaar","Halland","metovic","mane"];
 
-// let animess = animes.concat(anime,Sport,movies);
-// console.log(animess);
+let animess = animes.concat(anime,Sport,movies);
+console.log(animess);
 
 // Unshift => to store element at first of array
 let con = animes.unshift("Hi");
@@ -102,3 +102,4 @@ console.log(company);
 // add amazon at the end
 company.push("Amazon");
 console.log(company);
+

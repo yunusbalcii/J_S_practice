@@ -32,11 +32,17 @@ console.log(arrowfun(12, 23));
 
 count = 0;
 function vowels_count(str) {
-  // for (let char of str) {
-  //   if (char === "a" || char === "e" || char ==="i" || char === "o" || char === "u") {
-  //     count++;
-  //   }
-  // }
+  for (let char of str) {
+    if (
+      char === "a" ||
+      char === "e" ||
+      char === "i" ||
+      char === "o" ||
+      char === "u"
+    ) {
+      count++;
+    }
+  }
   for (let i = 0; i < str.length; i++) {
     if (
       str[i] == "a" ||
@@ -92,8 +98,15 @@ arr.forEach((val, index, arr) => {
 
 let nums = [12, 42, 12, 45, 24];
 
-let new_arr = nums.map((val) => {
+let new_rr = nums.map((val) => {
   return val;
+});
+
+console.log(new_rr);
+
+// filter
+let new_arr = nums.filter((val) => {
+  return val % 2 == 0;
 });
 
 console.log(new_arr);
