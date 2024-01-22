@@ -1,28 +1,22 @@
-// function without parameter
-// function Fn() {
-//   console.log("Hello");
-// }
+let arr = [1, 2, 3, 4, 5, 6, 7];
+// // filter
+// new_Arr = arr.filter((val) => {
+//     return val%2 == 0;
+// });
 
-// Fn();
+// console.log(new_Arr);
 
-// // function with paremeter
-// function square(num) {
-//   return num * num;
-// }
+// //reduce
+// const output = arr.reduce((res, curr) => {
+//   return res + curr;
+// });
 
-// console.log(square(99));
+// console.log(output);
 
-// // arrow function
-// let divide = (num) => {
-//   return num / num;
-// };
-
-// console.log(divide(123));
-
-// divide = (num) => num / 2;
-// console.log(divide(12));
-
-// const arrowfun = (a, b) => {
-//   return a * b;
-// };
-// console.log(arrowfun(12, 34));
+// // reduce
+// const bigger = arr.reduce((res, con) => {
+//   if (con > res) {
+//     return (res = con);
+//   }
+// });
+// console.log(bigger);
